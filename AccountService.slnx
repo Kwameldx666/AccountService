@@ -7,12 +7,17 @@
     <Project Path="src/AccountService.Persistence/AccountService.Persistence.csproj" Id="9006431a-10f4-4146-b7ee-989b95638323" />
     <Project Path="src/AccountSevice.Common/AccountService.Common.csproj" Id="4f6bf2f1-f42c-4bc1-948f-4b5ec4c4c515" />
   </Folder>
-  <Folder Name="/Tests/">
-    <Project Path="Tests/AccountService.Api.UnitTests/AccountService.Api.UnitTests.csproj" Id="dc61d7bf-fcd4-4543-902a-eb466556df96" />
-    <Project Path="Tests/AccountService.Application.UnitTests/AccountService.Application.UnitTests.csproj" Id="e6c590f6-94d6-4154-9981-6248348c0935" />
-    <Project Path="Tests/AccountService.Domain.UnitTests/AccountService.Domain.UnitTests.csproj" Id="33f4bacd-3a73-4bb2-a942-8ca568be1f04" />
-    <Project Path="Tests/AccountService.Infrastructure.UnitTests/AccountService.Infrastructure.UnitTests.csproj" Id="f4b853fe-b7c7-42a4-8df8-01ef208cba8d" />
-    <Project Path="Tests/AccountService.Persistence.UnitTests/AccountService.Persistence.UnitTests.csproj" Id="fea39d2b-c76d-4c80-af01-c4a055360c1a" />
-    <Project Path="Tests/AccountServices.IntegrationTests/AccountServices.IntegrationTests.csproj" Id="3d4c47ed-16cd-4d09-b545-73bbe0cf080c" />
+  <Folder Name="/Tests/" />
+  <Folder Name="/Tests/ArchitectureTests/">
+    <Project Path="Tests/ArchitectureTests/AccountService.ArchitectureTests/AccountService.ArchitectureTests.csproj" Id="86ebca89-7c97-44e7-be82-91cf8ff71595" />
+  </Folder>
+  <Folder Name="/Tests/IntegrationTests/">
+    <Project Path="Tests/IntegrationTests/AccountService.IntegrationTests/AccountService.IntegrationTests.csproj" Id="82d30404-e65b-4b3e-9629-29ebd9a020b6" />
+  </Folder>
+  <Folder Name="/Tests/UnitTests/">
+    <Project Path="Tests/UnitTests/AccountService.Api.UnitTests/AccountService.Api.UnitTests.csproj" Id="cbed167a-91d8-4856-b44f-340afeb71d91" />
+    <Project Path="Tests/UnitTests/AccountService.Application.UnitTests/AccountService.Application.UnitTests.csproj" Id="5e61a4aa-cfbf-4d5a-a1d8-17625b1a94ff" />
+    <Project Path="Tests/UnitTests/AccountService.Infrastructure.UnitTests/AccountService.Infrastructure.UnitTests.csproj" Id="6d5bad6d-a7ee-4419-aa44-c2de560d66dc" />
+    <Project Path="Tests/UnitTests/AccountService.Persistence.UnitTests/AccountService.Persistence.UnitTests.csproj" Id="f8110a5a-6dae-46e9-851d-f9746826a287" />
   </Folder>
 </Solution>
