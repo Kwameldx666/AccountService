@@ -5,7 +5,7 @@
     <Project Path="src/AccountService.Domain/AccountService.Domain.csproj" Id="90026342-511e-48f4-9a93-445958897ecc" />
     <Project Path="src/AccountService.Infrastructure/AccountService.Infrastructure.csproj" Id="df9786db-e800-4df6-ad57-0d1052d22f67" />
     <Project Path="src/AccountService.Persistence/AccountService.Persistence.csproj" Id="9006431a-10f4-4146-b7ee-989b95638323" />
-    <Project Path="src/AccountSevice.Common/AccountSevice.Common.csproj" Id="4f6bf2f1-f42c-4bc1-948f-4b5ec4c4c515" />
+    <Project Path="src/AccountSevice.Common/AccountService.Common.csproj" Id="4f6bf2f1-f42c-4bc1-948f-4b5ec4c4c515" />
   </Folder>
   <Folder Name="/Tests/">
     <Project Path="Tests/AccountService.Api.UnitTests/AccountService.Api.UnitTests.csproj" Id="dc61d7bf-fcd4-4543-902a-eb466556df96" />
