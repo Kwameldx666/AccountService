@@ -1,11 +1,18 @@
 <Solution>
-  <Folder Name="/src/">
-    <Project Path="src/AccountService.Api/AccountService.Api.csproj" />
+  <Folder Name="/src/" />
+  <Folder Name="/src/Common/">
+    <Project Path="src/AccountSevice.Common/AccountService.Common.csproj" Id="4f6bf2f1-f42c-4bc1-948f-4b5ec4c4c515" />
+  </Folder>
+  <Folder Name="/src/Core/">
     <Project Path="src/AccountService.Application/AccountService.Application.csproj" Id="81d9649e-e1b8-495e-a46d-024993b9964f" />
     <Project Path="src/AccountService.Domain/AccountService.Domain.csproj" Id="90026342-511e-48f4-9a93-445958897ecc" />
+  </Folder>
+  <Folder Name="/src/Persistence/">
     <Project Path="src/AccountService.Infrastructure/AccountService.Infrastructure.csproj" Id="df9786db-e800-4df6-ad57-0d1052d22f67" />
     <Project Path="src/AccountService.Persistence/AccountService.Persistence.csproj" Id="9006431a-10f4-4146-b7ee-989b95638323" />
-    <Project Path="src/AccountSevice.Common/AccountService.Common.csproj" Id="4f6bf2f1-f42c-4bc1-948f-4b5ec4c4c515" />
+  </Folder>
+  <Folder Name="/src/Presentation/">
+    <Project Path="src/AccountService.Api/AccountService.Api.csproj" />
   </Folder>
   <Folder Name="/Tests/" />
   <Folder Name="/Tests/ArchitectureTests/">
