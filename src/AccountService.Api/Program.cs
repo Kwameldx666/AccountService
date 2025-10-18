@@ -1,5 +1,6 @@
 using AccountService.Api.Extensions;
 using AccountService.Application.Extensions;
+using FluentValidation.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,9 +11,8 @@ builder.Services.AddControllers();
 builder.Services
     .AddSwaggerDocumentation()
     .AddHealthCheckExtension()
-    .AddApplicationServices();
-
-
+    .AddApplicationServices()
+    .AddFluentValidationAutoValidation();
 
 var app = builder.Build();
 
