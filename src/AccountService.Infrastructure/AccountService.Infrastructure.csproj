@@ -11,4 +11,9 @@
     <Folder Include="Services\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AccountService.Application\AccountService.Application.csproj" />
+    <ProjectReference Include="..\AccountSevice.Common\AccountService.Common.csproj" />
+  </ItemGroup>
+
 </Project>
