@@ -15,6 +15,7 @@
     <Project Path="src/AccountService.Api/AccountService.Api.csproj" />
   </Folder>
   <Folder Name="/Tests/">
+    <Project Path="AccountService.ArchTests/AccountService.ArchTests.csproj" Id="28b19c93-8734-481e-bed4-b518dad92cdb" />
     <Project Path="Tests/AccountService.Api.UnitTests/AccountService.Api.UnitTests.csproj" Id="dc61d7bf-fcd4-4543-902a-eb466556df96" />
     <Project Path="Tests/AccountService.Application.UnitTests/AccountService.Application.UnitTests.csproj" Id="e6c590f6-94d6-4154-9981-6248348c0935" />
     <Project Path="Tests/AccountService.Domain.UnitTests/AccountService.Domain.UnitTests.csproj" Id="33f4bacd-3a73-4bb2-a942-8ca568be1f04" />
